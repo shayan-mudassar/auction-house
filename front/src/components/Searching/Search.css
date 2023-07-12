@@ -16,7 +16,6 @@
   width: 300px;
   display: flex;
   align-items: center;
-
 }
 
 .search input::placeholder {
@@ -69,12 +68,11 @@ input:focus {
   font-family: Futura, Avenir, Helvetica, sans-serif;
   font-size: 29px;
   margin-top: 10px;
-  margin-left:20px;
+  margin-left: 20px;
   color: #39d2f9;
 }
 
 .searchItem p {
-
   text-decoration: none;
 }
 

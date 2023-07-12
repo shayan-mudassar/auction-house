@@ -1,23 +1,23 @@
-import * as React from 'react';
-import Rating from '@mui/material/Rating';
-import Box from '@mui/material/Box';
-import StarIcon from '@mui/icons-material/Star';
+import * as React from "react";
+import Rating from "@mui/material/Rating";
+import Box from "@mui/material/Box";
+import StarIcon from "@mui/icons-material/Star";
 
 const labels = {
-  0.5: 'Unacceptable',
-  1: 'Bad',
-  1.5: 'Subpar',
-  2: 'Poor',
-  2.5: 'Average',
-  3: 'Adequate',
-  3.5: 'Good',
-  4: 'Lovely',
-  4.5: 'Great!',
-  5: 'Excellent!',
+  0.5: "Unacceptable",
+  1: "Bad",
+  1.5: "Subpar",
+  2: "Poor",
+  2.5: "Average",
+  3: "Adequate",
+  3.5: "Good",
+  4: "Lovely",
+  4.5: "Great!",
+  5: "Excellent!",
 };
 
 function getLabelText(value) {
-  return `${value} Star${value !== 1 ? 's' : ''}, ${labels[value]}`;
+  return `${value} Star${value !== 1 ? "s" : ""}, ${labels[value]}`;
 }
 
 // A simple rating system with stars
@@ -29,9 +29,9 @@ export default function HoverRating(props) {
     <Box
       sx={{
         width: 200,
-        display: 'flex',
-        alignItems: 'center',
-        fontFamily: 'Futura',
+        display: "flex",
+        alignItems: "center",
+        fontFamily: "Futura",
       }}
     >
       <Rating

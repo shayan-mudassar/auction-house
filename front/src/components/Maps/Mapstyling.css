@@ -1,4 +1,4 @@
-.leaflet-container{
+.leaflet-container {
   height: 500px;
   width: 600px;
 }
@@ -6,4 +6,3 @@
 .leaflet-touch .leaflet-bar {
   border: none;
 }
-  

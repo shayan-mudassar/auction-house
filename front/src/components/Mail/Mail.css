@@ -39,7 +39,7 @@
   border: 1px solid white;
   background-color: rgb(207, 230, 230);
 }
-  
+
 /* Message Button */
 
 .buttonitoMail {
@@ -53,8 +53,8 @@
 }
 
 .buttonitoMail:hover {
-cursor: pointer;
-background-color: teal;
+  cursor: pointer;
+  background-color: teal;
 }
 
 .buttonitoInfoMail {
@@ -68,6 +68,6 @@ background-color: teal;
 }
 
 .buttonitoInfoMail:hover {
-cursor: pointer;
-background-color: rgb(73, 79, 79);
+  cursor: pointer;
+  background-color: rgb(73, 79, 79);
 }
