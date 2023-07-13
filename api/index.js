@@ -15,7 +15,7 @@ const session = require("express-session");
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://localhost:3000"],
+    origin: ["http://localhost:3000"], // change this to https on server
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
