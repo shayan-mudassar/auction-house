@@ -50,7 +50,7 @@ function Recommendations() {
             </div>
             <div style={{ color: "#14b6e3" }}>
               {" "}
-              {value.currently} € &nbsp;&nbsp;
+              {value.currently} £ &nbsp;&nbsp;
             </div>
           </div>
         </div>

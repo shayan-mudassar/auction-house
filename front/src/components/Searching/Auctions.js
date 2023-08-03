@@ -11,14 +11,6 @@ import Detail from "../Typography/Detail";
 
 // Material UI components
 import { Typography } from "@mui/material";
-import PetsIcon from "@mui/icons-material/Pets";
-import ComputerIcon from "@mui/icons-material/Computer";
-import CheckroomIcon from "@mui/icons-material/Checkroom";
-import SnowboardingIcon from "@mui/icons-material/Snowboarding";
-import ColorLensIcon from "@mui/icons-material/ColorLens";
-import TwoWheelerIcon from "@mui/icons-material/TwoWheeler";
-import PhotoCameraIcon from "@mui/icons-material/PhotoCamera";
-import HandymanIcon from "@mui/icons-material/Handyman";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -89,7 +81,7 @@ function Auctions() {
             </div>
             <div style={{ color: "#14b6e3" }}>
               {" "}
-              {value.currently} € &nbsp;&nbsp;
+              {value.currently} £ &nbsp;&nbsp;
             </div>
           </div>
         </div>
@@ -115,15 +107,7 @@ function Auctions() {
             marginTop: 3,
           }}
         >
-          <Header text={<ComputerIcon style={{ color: "#00C9FF" }} />} />
-          <Header text={<PhotoCameraIcon style={{ color: "#00C9FF" }} />} />
-          <Header text={<HandymanIcon style={{ color: "#00C9FF" }} />} />
-          <Header text={<PetsIcon style={{ color: "#00C9FF" }} />} />
           <CategoriesSelect setSelectedCategory={setSelectedCategory} />
-          <Header text={<ColorLensIcon style={{ color: "#00C9FF" }} />} />
-          <Header text={<SnowboardingIcon style={{ color: "#00C9FF" }} />} />
-          <Header text={<TwoWheelerIcon style={{ color: "#00C9FF" }} />} />
-          <Header text={<CheckroomIcon style={{ color: "#00C9FF" }} />} />
         </div>
 
         <div className="search">

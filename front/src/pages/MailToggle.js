@@ -62,7 +62,6 @@ export default function MailToggle() {
           minHeight: "90vh",
           width: "90%",
 
-          backgroundImage: `url("https://www.livechatdirectory.co.uk/wp-content/uploads/2022/09/sending-email-gif.gif")`,
           backgroundRepeat: "repeat",
           backgroundSize: "20%",
         }}

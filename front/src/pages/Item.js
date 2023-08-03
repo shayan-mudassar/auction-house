@@ -1026,7 +1026,7 @@ function Item() {
                         }}
                       >
                         <SellIcon />
-                        &nbsp;Price: {itemObject.buy_price}${" "}
+                        &nbsp;Price: {itemObject.buy_price}£{" "}
                       </div>
                     }
                   />
@@ -1071,7 +1071,7 @@ function Item() {
                         }}
                       >
                         <SellIcon />
-                        &nbsp;Price: {itemObject.buy_price}${" "}
+                        &nbsp;Price: {itemObject.buy_price}£{" "}
                       </div>
                     }
                   />
@@ -1102,7 +1102,7 @@ function Item() {
                       }}
                     >
                       <SellIcon />
-                      &nbsp;Price: {itemObject.buy_price}${" "}
+                      &nbsp;Price: {itemObject.buy_price}£{" "}
                     </div>
                   }
                 />
@@ -1137,7 +1137,7 @@ function Item() {
                           }}
                         >
                           <SellIcon />
-                          &nbsp;Price: {itemObject.buy_price}${" "}
+                          &nbsp;Price: {itemObject.buy_price}£{" "}
                         </div>
                       }
                     />

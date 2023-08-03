@@ -154,7 +154,7 @@ function FilterItems(props) {
             )}
             <div style={{ color: "#14b6e3" }}>
               {" "}
-              {value.currently} € &nbsp;&nbsp;
+              {value.currently} £ &nbsp;&nbsp;
             </div>
           </div>
         </div>
@@ -252,7 +252,7 @@ function FilterItems(props) {
                       }}
                     >
                       <p>
-                        {value.name} {value.currently} €{" "}
+                        {value.name} {value.currently} £{" "}
                       </p>
                     </a>
                   );

@@ -163,10 +163,10 @@ function CreateItem() {
             <Field id="inputCreateItem" name="name" placeholder="Item" />
             <label>Starting Price: </label>
             <ErrorMessage name="currently" component="span" />
-            <Field id="inputCreateItem" name="currently" placeholder="$$$" />
+            <Field id="inputCreateItem" name="currently" placeholder="£££" />
             <label>Buying Price: </label>
             <ErrorMessage name="buy_price" component="span" />
-            <Field id="inputCreateItem" name="buy_price" placeholder="$$$" />
+            <Field id="inputCreateItem" name="buy_price" placeholder="£££" />
             <label>Location: </label>
             <ErrorMessage name="location" component="span" />
             <Field id="inputCreateItem" name="location" placeholder="City" />

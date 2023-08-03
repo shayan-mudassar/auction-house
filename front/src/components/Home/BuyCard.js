@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Card, CardContent, CardMedia } from "@mui/material";
+import { Typography, Card, CardContent } from "@mui/material";
 
 // Simple card to display the landing page's two cards
 export default function BuyCard(props) {
@@ -7,16 +7,10 @@ export default function BuyCard(props) {
     <Card
       style={{
         maxWidth: 645,
-        background: "rgba(0, 0, 0, 0.48)",
+        background: "-webkit-linear-gradient(45deg, #00C9FF 0%, #92FE9D 100%)",
         margin: "20px",
       }}
     >
-      <CardMedia
-        style={{ height: 440 }}
-        component="img"
-        src={props.kind.imageUrl}
-      />
-
       <CardContent>
         <Typography
           gutterBottom
@@ -26,7 +20,8 @@ export default function BuyCard(props) {
             fontFamily: "Futura",
             fontWeight: "bold",
             fontSize: "2rem",
-            color: "#fff",
+            color: "#000",
+            cursor: "pointer"
           }}
         >
           {props.kind.title}
@@ -35,7 +30,7 @@ export default function BuyCard(props) {
           variant="body2"
           color="textSecondary"
           component="p"
-          style={{ fontFamily: "Futura", fontSize: "1.1rem", color: "#ddd" }}
+          style={{ fontFamily: "Futura", fontSize: "1.1rem", color: "#000" }}
         >
           {props.kind.description}
         </Typography>
