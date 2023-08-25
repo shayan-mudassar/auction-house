@@ -1,6 +1,6 @@
 # Auction Point
 
-Auction Point is a website where users can buy and sell items. My aim with this Full Stack project was the design and development of an online auction platform, similar to eBay. The implementation follows a REST-api architecture and some of the key features are:
+Auction Point is a website where users can buy and sell items. My aim with this Full Stack project was the design and development of an online auction platform, similar to eBay. Node:14.21.3 The implementation follows a REST-api architecture and some of the key features are:
 
 - **Secure Authorisation and Authentication**
 - **Role-based Access Control**
